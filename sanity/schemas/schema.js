@@ -16,4 +16,4 @@ export default createSchema({
   // We name our schema
   name: "default",
   types: schemaTypes.concat([restaurant, category, dish, featured]),
-});
+}); 

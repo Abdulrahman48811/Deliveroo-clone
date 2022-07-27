@@ -19,7 +19,7 @@ export default {
       name: 'price',
       type: 'number',
       title: 'Price of the dish in GBP',
-    },
+    }, 
     {
       name: 'image',
       type: 'image',

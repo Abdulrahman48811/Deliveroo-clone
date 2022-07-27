@@ -1,7 +1,7 @@
 export default {
     name: "featured",
     type: "document",
-    titlw: "Featured Menu categories",
+    title: "Featured Menu categories",
     fields: [
         {
             name: "name",
@@ -12,7 +12,7 @@ export default {
         {
             name: "short_description",
             type: "string",
-            title: "Short_description",
+            title: "Short description",
             validation: (Rule) => Rule.max(200),
         },
         {
